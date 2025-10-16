@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterDialog</class>
+ <widget class="QDialog" name="RegisterDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_repass">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请再次确认密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>400</y>
+     <width>150</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+background-color: rgb(99, 188, 255);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+#pushButton:hover{
+background-color: rgb(99, 170, 255);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+#pushButton:pressed{
+background-color: rgb(99, 188, 255);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+padding-left:2px;
+padding-top:2px;
+}</string>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请输入用户名</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请入密码</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
